@@ -1,7 +1,7 @@
 class Node:
     def __init__(self, data):
         self.data = data
-        self.next = None  # Вказує на попередній вузол (або None, якщо стек порожній)
+        self.next = None  
 
 
 class StackNodes:
@@ -54,7 +54,7 @@ class StackNodes:
         return " -> ".join(elements) if elements else "Стек порожній"
 
 
-# Приклад використання
+
 if __name__ == "__main__":
     s = StackNodes()
     
